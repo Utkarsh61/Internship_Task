@@ -1,0 +1,86 @@
+/* homepage.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Homepage component styles */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.background-image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button-group,
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-button,
+.stop-button,
+.login-button,
+.register-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.start-button {
+  background-color: #4caf50; /* Green color for start button */
+  margin-top: 200px;
+  margin-bottom:15px;
+  color: white;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+.stop-button {
+  margin-top: 200px;
+  background-color: #f44336; /* Red color for stop button */
+  color: white;
+}
+
+.stop-button:hover {
+  background-color: #d32f2f;
+}
+
+.login-button,
+.register-button {
+  background-color: #008CBA; /* Blue color for login and register buttons */
+  color: white;
+  margin-bottom:15px;
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: #005b8b;
+}
